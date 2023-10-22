@@ -20,7 +20,8 @@ americana que tem os dois tipos de visulização
 
 ## Instalações
 Para que o program rode com perfeição no Visual Studio Code é necessário fazer as instalações abaixo
-- Node.js
+- instalar o node na sua máquina e depois fazer as instalações abaixo no terminal
+- node-v
 - react-router-dom
 - react-redux
 - @reduxjs/toolkit
@@ -31,25 +32,35 @@ Para que o program rode com perfeição no Visual Studio Code é necessário faz
 ## Funcionamento da Página 
   
 - Página inicial 
-![crud page](CrudPages/Page1.jpeg)
+![pages ](ecommerce/page1.jpeg)
 
-- Posibilidade de pesquisar o contato
-![crud page](CrudPages/Page2.jpeg)
+- Opção para ordenar os produtos em lista ou grade
+![pages ](ecommerce/page2.jpeg)
 
-- Adição de novo contato
-![crud page](CrudPages/Page4.jpeg)
+- Opção para ordenar os produtos por ordem de valores ou alfabética
+![pages ](ecommerce/page3.jpeg)
 
-- Psossibilidade de exclusão de contato
-![crud page](CrudPages/Page5.jpeg)
+- Filtros de apresentar os produtos por faixa de valores 
+![pages ](ecommerce/page4.jpeg)
 
-- Mensagem de alerta editar o usúario para um contato já existente 
-![crud page](CrudPages/Page3.jpeg)
+- Buscar os produtos por categoria  
+![pages ](ecommerce/page5.jpeg)
 
-- Tentar editar contato vazio
-![crud page](CrudPages/Page6.jpeg)
+- Opção de comprar por quantidade e cor do produto
+![pages ](ecommerce/page6.jpeg)
 
-- Mensagem de alerta editar o usúario para um contato vazio
-![crud page](CrudPages/Page7.jpeg)
+- Carrinho 
+![pages ](ecommerce/page7.jpeg)
 
-- Apresenta na tela contato editado
-![crud page](CrudPages/Page8.jpeg)
+- Opção de adicionar um endereço 
+![pages ](ecommerce/page8.jpeg)
+
+- Opções de escolha de forma de pagamento
+![pages ](ecommerce/page10.jpeg)
+
+- Opção de favoritar produto 
+![pages ](ecommerce/page11.jpeg)
+
+- Opção de pesquisar produtos por nome
+![pages ](ecommerce/page12.jpeg)
+
