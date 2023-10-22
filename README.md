@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+## Desafio e-commerce
+O desafio é criar um e-commece de um site de compras 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Fazer parte de favoritos
+- Fazer parte de escolher o modo de pagamento como um RadioButton sem precisar finalizar
+- Exibir notas dos produtos de 0 a 5 podem colocar como quantidade de estrelas (imagem)
+- Exibir comentários das avaliações dos produtos (alguns comentários por produto)
+- Adicionar filtro de faixa de preço
+- Inserir opção de cor nos produtos
+- Colocar opção de visualização como lista (feita) e como grade - usar como base a loja
+americana que tem os dois tipos de visulização
+- Bonus 1: (fazer editar, apagar e criar endereço)
+- Bonus 2: (nas funções de editar, apagar e criar endereço fazer como um modal)
 
-## Available Scripts
+## Techs 
+- React JS
+- JS
+- HTML
+- CSS
 
-In the project directory, you can run:
+## Instalações
+Para que o program rode com perfeição no Visual Studio Code é necessário fazer as instalações abaixo
+- Node.js
+- react-router-dom
+- react-redux
+- @reduxjs/toolkit
+- Extensão Redux DevTools
+- sass-loader
+- @node-sass
 
-### `npm start`
+## Funcionamento da Página 
+  
+- Página inicial 
+![crud page](CrudPages/Page1.jpeg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Posibilidade de pesquisar o contato
+![crud page](CrudPages/Page2.jpeg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Adição de novo contato
+![crud page](CrudPages/Page4.jpeg)
 
-### `npm test`
+- Psossibilidade de exclusão de contato
+![crud page](CrudPages/Page5.jpeg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Mensagem de alerta editar o usúario para um contato já existente 
+![crud page](CrudPages/Page3.jpeg)
 
-### `npm run build`
+- Tentar editar contato vazio
+![crud page](CrudPages/Page6.jpeg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Mensagem de alerta editar o usúario para um contato vazio
+![crud page](CrudPages/Page7.jpeg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Apresenta na tela contato editado
+![crud page](CrudPages/Page8.jpeg)
